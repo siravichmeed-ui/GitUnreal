@@ -1,0 +1,63 @@
+# =========================
+# Unreal Engine
+# =========================
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Keep important build files
+!Build/*/
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico
+
+# Plugins
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+.vs/**
+*.sln
+*.suo
+*.VC.db
+*.VC.opendb
+.vsconfig
+
+# =========================
+# Compiled / Binary
+# =========================
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.app
+*.out
+
+# =========================
+# Unreal Generated
+# =========================
+*_BuiltData.uasset
+
+# =========================
+# Source Art (optional)
+# =========================
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# =========================
+# Logs / Temp
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
